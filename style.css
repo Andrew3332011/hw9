@@ -11,3 +11,24 @@ span {
     box-shadow:  1.8px 2.12px 15px rgb(0, 140, 255), 0 6.9px 7.3px rgb(66, 255, 239), 0 11.5px 11px rgb(43, 75, 43),
     0 22.3px 17.9px rgb(0, 0, 0), 0 41.8px 33.4px orange, 0 100px 80px rgb(255, 0, 221);
 }
+
+.post-title {
+    text-align: center;
+}
+
+.post-text:nth-child(2n) {
+    text-align: right;
+    white-space: pre-wrap;
+}
+
+.post-text:nth-child(3n) {
+    text-align: justify;
+    word-break: keep-all;
+    
+}
+
+.post-text::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    color: red;
+}
